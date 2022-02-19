@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+*{
+	 font-family: 'Josefin Sans', sans-serif;	
+}
+body {
+				color: hsl(0, 36%, 70%);
+				margin: 0;
+				padding: 0;
+}
+    .attribution { font-size: 11px; text-align: center; 
+    position: fixed;
+    bottom: 0;
+    top: 900px;
+    left: 0;
+    right: 0;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+content{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+}
+.box2 h1{
+				text-transform: uppercase;
+				font-weight: lighter;
+				font-size: 35px;
+				text-align: center;
+}
+h1>span{
+					color: hsl(0, 6%, 24%);
+					font-weight: bolder;
+					font-size: 40px;
+}
+.box2 p{
+				font-size: 16px;
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+}
+::placeholder{
+				color: hsl(0, 36%, 70%);
+				position: relative;
+				left: 10px;
+				font-size: 15px;
+				top: 0;
+				bottom: 0;
+}
+.box2 input{
+				margin-left: 20px;
+				flex-direction: column;
+				height: 45px;
+				width: 350px;
+				border: solid hsl(0, 36%, 70%);
+				border-radius: 20px;
+}
+#logo{
+				position: relative;
+				top: 15px;
+				left: 15px;
+}
+#hero{
+				width: 100%;
+				position: relative;
+				top: 15px;
+				left: 0;
+				right: 0;
+}
+#text{
+				margin-left:60px ;
+				margin-top:15px;
+				font-size: 20px;
+}
+
+#arrow{
+				background: hsl(0, 36%, 70%);
+				padding: 15px;
+				border-radius: 25px;
+				position: absolute;
+				top: 587px;
+				right: 35px;
+				cursor: pointer;
+}
+#arrow:hover{
+				background: pink;
+}
+#error{
+				position: absolute;
+				top: 598px;
+				right: 85px;
+				display: none;
+}
+@media(min-width:600px){
+				content{
+								display: flex;
+								flex-direction: row-reverse;
+				}
+				#arrow{
+								position: absolute;
+								left: 340px;
+								top: 250px;
+								
+				}
+				#error{
+								position: absolute;
+								left: 310px;
+								top: 260px;
+								
+				}
+}
+	color: hsl(0, 93%, 68%);
+				color: hsl(0, 6%, 24%);
