@@ -77,7 +77,7 @@ h1>span{
 				padding: 15px;
 				border-radius: 25px;
 				position: absolute;
-				top: 567px;
+				top: 572px;
 				right: 35px;
 				cursor: pointer;
 }
@@ -86,7 +86,7 @@ h1>span{
 }
 #error{
 				position: absolute;
-				top: 578px;
+				top: 583px;
 				right: 85px;
 				display: none;
 }
@@ -98,13 +98,13 @@ h1>span{
 				#arrow{
 								position: absolute;
 								left: 340px;
-								top: 230px;
+								top: 235px;
 								
 				}
 				#error{
 								position: absolute;
 								left: 310px;
-								top: 240px;
+								top: 245px;
 								
 				}
 }
